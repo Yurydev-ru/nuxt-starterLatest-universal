@@ -1,5 +1,15 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt4-starter-template",
+  "description": "A minimal Nuxt 4 starter template with TypeScript, ESLint, Markdown support, and more.",
+  "author": {
+    "name": "YuryDev",
+    "email": "yurydevru@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=11.0.0"
+  },
   "type": "module",
   "private": true,
   "scripts": {
