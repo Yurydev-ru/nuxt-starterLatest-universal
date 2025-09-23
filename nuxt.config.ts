@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: true,
+  css: ['@/assets/scss/main.scss'],
   typescript: {
     strict: true,
     typeCheck: true
