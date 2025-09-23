@@ -1,6 +1,8 @@
 {
   "name": "nuxt4-starter-template",
   "description": "A minimal Nuxt 4 starter template with TypeScript, ESLint, Markdown support, and more.",
+  "type": "module",
+  "private": true,
   "author": {
     "name": "YuryDev",
     "email": "yurydevru@gmail.com"
@@ -10,8 +12,6 @@
     "node": ">=22.0.0",
     "npm": ">=11.0.0"
   },
-  "type": "module",
-  "private": true,
   "scripts": {
     "build": "cross-env NODE_ENV=production nuxt build",
     "dev": "cross-env NODE_ENV=development nuxt dev",
@@ -34,6 +34,7 @@
     "eslint-plugin-vue": "^10.4.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.6",
+    "sass": "^1.93.2",
     "typescript": "^5.9.2"
   }
 }
