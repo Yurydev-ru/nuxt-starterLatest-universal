@@ -2,12 +2,20 @@
 export default defineNuxtConfig({
   ssr: true,
   css: ['@/assets/scss/main.scss'],
+  modules: [
+    '@nuxt/eslint'
+  ],
   components: [
     {
       path: '~/components',
       pathPrefix: false,
     },
   ],
+  eslint: {
+    config: {
+      stylistic: true,
+    }
+  },
   typescript: {
     strict: true,
     typeCheck: true,
@@ -38,4 +46,4 @@ export default defineNuxtConfig({
     host: 'localhost'
   },
   compatibilityDate: '2025-07-15'
-})
+});

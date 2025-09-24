@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-    definePageMeta({
-        layout: 'default',
-        title: 'Home Page'
-    })
+definePageMeta({
+  layout: 'default',
+  title: 'Home Page'
+});
 </script>
 
 <template>
