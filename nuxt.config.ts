@@ -2,9 +2,16 @@
 export default defineNuxtConfig({
   ssr: true,
   css: ['@/assets/scss/main.scss'],
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
   typescript: {
     strict: true,
-    typeCheck: true
+    typeCheck: true,
+    shim: false
   },
   devtools: { 
     enabled: process.env.NODE_ENV === 'development' ? true : false
